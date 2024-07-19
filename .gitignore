@@ -2,6 +2,8 @@
 
 # dependencies
 .vscode
+.vs/
+.vscode/
 /.vscode
 /node_modules
 /.pnp
