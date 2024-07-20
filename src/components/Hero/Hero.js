@@ -13,7 +13,7 @@ const Hero = () => (
       <SectionText>
         I am Foluso Ojutalayo, a UI/UX Designer, Brand Designer, and Front-End Web Developer. I
         create engaging digital experiences and compelling visual identites. Explore my work to see
-        how I combine creativity and technical expertise to bring your vision to life.
+        how I combine creativity and technical expertise to turn your vision into reality.
       </SectionText>
 
       <Button onClick={() => (window.location = "https://www.behance.net/folusoojutalayo")}>

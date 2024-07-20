@@ -14,10 +14,12 @@ export const Section = styled.section`
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: column;
+    overflow: hidden;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+    overflow: hidden;
 
     width: calc(100vw - 32px);
     flex-direction: column;
@@ -55,7 +57,7 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SectionText = styled.p`
-  max-width: 800px;
+  max-width: 850px;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
